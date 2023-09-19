@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Christoph Landolt"
-  avatar           : "profile_image.jpg"
+  avatar           : "profile.png"
   bio              : "Machine Learning Engineer / Research Associate AI"
   location         : "Switzerland"
   employer         :

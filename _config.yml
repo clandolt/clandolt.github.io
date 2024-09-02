@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "de-CH"
+locale                   : "en-US"
 title                    : "Christoph Landolt"
 title_separator          : "-"
-name                     : &name "Christoph Landolt"
+name                     : &name "Christoph R. Landolt"
 description              : &description "Machine Learning Engineer / Research Associate AI"
 url                      : https://clandolt.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -146,7 +146,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - markdown.md
 keep_files:
   - .git
   - .svn

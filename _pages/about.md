@@ -32,4 +32,4 @@ Currently, I am involved in several projects that aim to innovate within the rea
 
 ## How to Connect
 
-For collaboration opportunities, questions, or discussions related to my research, feel free to reach out through my [email](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/).
+For collaboration opportunities, questions, or discussions related to my research, feel free to reach out through my [email](mailto:info@christophlandolt.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/christoph-landolt-072068b1/).

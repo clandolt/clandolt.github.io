@@ -1,7 +1,7 @@
 ---
 permalink: /markdown/
 title: "Markdown"
-author_profile: true
+author_profile: flase
 redirect_from: 
   - /md/
   - /markdown.html

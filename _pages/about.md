@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Christoph R. Landolt - Research Assistant in Machine Learning at the Institute for Computational Engineering"
+title: "About me
 excerpt: "About Me"
 author_profile: true
 redirect_from: 

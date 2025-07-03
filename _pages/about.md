@@ -8,27 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to the personal website of **Christoph R. Landolt**, Research Assistant in Machine Learning at the **Institute for Computational Engineering**. My work is primarily focused on advancing autonomous and multi-agent systems through the integration of machine learning, reinforcement learning, and signal processing methodologies.
+## Biography
+I am a doctoral researcher at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by [Mario Fritz](https://cispa.saarland/group/fritz/). As an ELLIS PhD student, my research focuses on agentic and self-improving systems for cyber security, particularly exploring the intersection of generative AI, multi-agent learning, and game theory to build safer and more resilient autonomous agents in adversarial environments.
 
-A dedicated researcher with a robust background in computer science, I have a strong interest in game theory, which allows me to approach complex challenges with innovative solutions. My research is centered around practical applications, bridging the gap between theoretical frameworks and their real-world implementations. I am deeply committed to pushing the boundaries of technology through cutting-edge research and development.
+Before starting my PhD, I worked as a master's thesis research fellow at the Cyber-Defence Campus in Switzerland, where I worked on training offensive penetration testing agents using multi-agent reinforcement learning (MARL). I also held a position as a research assistant in machine learning at the Institute for Computational Engineering (ICE) in Buchs, Switzerland, and gained several years of industry experience.
+
 
 ## Research Interests
 
-My current research explores various aspects of machine learning, particularly its applications in autonomous systems and multi-agent environments. Key areas of focus include:
+- **Adversarial AI & AI Safety:** Developing robust AI systems that can withstand and adapt in adversarial settings, with a focus on cyber security.
+- **Multi-Agent & Equilibrium Learning:** Investigating cooperative and competitive interactions among autonomous agents using Agentic, MARL and game-theoretic frameworks.
+- **Generative AI for Security:** Leveraging generative models to explore both attack and defense in cyber environments.
+- **Reinforcement Learning:** Applying deep RL techniques to enable autonomous decision-making in complex, uncertain scenarios.
+- **Secure & Trustworthy Foundation Models:** Studying how to align and secure foundation models for deployment in critical infrastructure.
 
-- **Autonomous Systems**: Developing systems that can operate independently, making decisions without human intervention using advanced machine learning algorithms.
-- **Multi-Agent Systems**: Investigating the interactions between multiple autonomous agents, with a focus on cooperative and competitive scenarios.
-- **Reinforcement Learning**: Applying reinforcement learning techniques to optimize the decision-making processes in complex environments.
-- **Signal Processing**: Utilizing signal processing methods to improve the performance and reliability of machine learning models in real-time applications.
-- **Game Theory**: Leveraging game-theoretic approaches to enhance the strategic decision-making capabilities of autonomous systems.
 
 ## Education & Background
 
-I hold a degree in Computer Science with a specialization in Artificial Intelligence. My academic journey has been characterized by a strong emphasis on both the theoretical and practical aspects of machine learning, allowing me to contribute to the field through various research projects and publications.
+- **PhD in Computer Science**, CISPA Helmholtz Center / ELLIS PhD Program, 2024 – present
+- **MSc in Engineering (Data Science)**, OST - Eastern Switzerland University of Applied Sciences  
+  Thesis: *Training of Offensive Penetration Testing Agents with Multi-Agent RL on Graphs* (CYD Fellowship)
+- **BSc in Systems Engineering (Computer Science)**, OST - Eastern Switzerland University of Applied Sciences  
+  Thesis: *Anomaly Detection in Web Traffic using ML for Attack Recognition*
 
-## Ongoing Projects
 
-Currently, I am involved in several projects that aim to innovate within the realm of autonomous and multi-agent systems. These projects are geared towards practical implementations, with a goal of translating theoretical research into solutions that can be applied in real-world settings.
+## Publications
+You can find a list of my publications on [Google Scholar](https://scholar.google.com/citations?user=up1rKmIAAAAJ&hl=en).
 
 ## How to Connect
 

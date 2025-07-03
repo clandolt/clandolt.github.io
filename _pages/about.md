@@ -22,6 +22,8 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 - **Reinforcement Learning:** Applying deep RL techniques to enable autonomous decision-making in complex, uncertain scenarios.
 - **Secure & Trustworthy Foundation Models:** Studying how to align and secure foundation models for deployment in critical infrastructure.
 
+## News
+
 
 ## Education & Background
 
@@ -30,9 +32,6 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
   Thesis: *Training of Offensive Penetration Testing Agents with Multi-Agent RL on Graphs* (CYD Fellowship)
 - **BSc in Systems Engineering (Computer Science)**, OST - Eastern Switzerland University of Applied Sciences  
   Thesis: *Anomaly Detection in Web Traffic using ML for Attack Recognition*
-
-## News
-
 
 ## Publications
 You can find a list of my publications on [Google Scholar](https://scholar.google.com/citations?user=up1rKmIAAAAJ&hl=en).

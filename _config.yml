@@ -84,7 +84,9 @@ author:
   avatar           : "profile_casual.png"
   bio              : "ELLIS Ph.D. Student at CISPA"
   location         : "Germany"
-  employer         : "CISPA Helmholtz Center \n for Information Security"
+  employer         : |
+    CISPA Helmholtz Center
+    for Information Security
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=up1rKmIAAAAJ&hl=en"
   email            : 

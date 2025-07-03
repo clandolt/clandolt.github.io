@@ -40,7 +40,7 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
   Thesis: *Anomaly Detection in Web Traffic using ML for Attack Recognition*
 
 ## Publications
-You can find a list of my publications on [Google Scholar](https://scholar.google.com/citations?user=up1rKmIAAAAJ&hl=en).
+You can find a list of my publications under [Publications](https://christophlandolt.com/publications/) or on [Google Scholar](https://scholar.google.com/citations?user=up1rKmIAAAAJ&hl=en).
 
 ## How to Connect
 

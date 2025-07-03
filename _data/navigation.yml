@@ -7,7 +7,7 @@ main:
     url: /activities/
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: https://medium.com/@christoph.landolt
     
   - title: "CV"
     url: /files/CV_Christoph_Landolt.pdf

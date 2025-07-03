@@ -1,0 +1,15 @@
+---
+title: "Securing RAG: A Risk Assessment and Mitigation Framework"
+collection: publications
+permalink: /publication/2025-06-27-securing-rag-a-risk-assessment-and-mitigation-framework
+excerpt: 'Retrieval Augmented Generation (RAG) has emerged as the de facto industry standard for user-facing NLP applications, offering the ability to integrate data without re-training or fine-tuning Large Language Models (LLMs). This capability enhances the quality and accuracy of responses but also introduces novel security and privacy challenges, particularly when sensitive data is integrated. With the rapid adoption of RAG, securing data and services has become a critical priority. This paper first reviews the vulnerabilities of RAG pipelines, and outlines the attack surface from data pre-processing and data storage management to integration with LLMs. The identified risks are then paired with corresponding mitigations in a structured overview. In a second step, the paper develops a framework that combines RAG-specific security considerations, with existing general security guidelines, industry standards, and best practices. The proposed framework aims to guide the implementation of robust, compliant, secure, and trustworthy RAG systems.'
+date: 2025-06-27
+venue: 'IEEE Swiss Conference on Data Science 2025'
+paperurl: 'https://arxiv.org/abs/2505.08728'
+citation: 'Lukas Ammann, Sara Ott, Christoph R Landolt, Marco P Lehmann. (2025). &quot;Securing RAG: A Risk Assessment and Mitigation Framework.&quot; <i>IEEE Swiss Conference on Data Science 2025</i>. 1(1).'
+---
+Retrieval Augmented Generation (RAG) has emerged as the de facto industry standard for user-facing NLP applications, offering the ability to integrate data without re-training or fine-tuning Large Language Models (LLMs). This capability enhances the quality and accuracy of responses but also introduces novel security and privacy challenges, particularly when sensitive data is integrated. With the rapid adoption of RAG, securing data and services has become a critical priority. This paper first reviews the vulnerabilities of RAG pipelines, and outlines the attack surface from data pre-processing and data storage management to integration with LLMs. The identified risks are then paired with corresponding mitigations in a structured overview. In a second step, the paper develops a framework that combines RAG-specific security considerations, with existing general security guidelines, industry standards, and best practices. The proposed framework aims to guide the implementation of robust, compliant, secure, and trustworthy RAG systems.
+
+[Download paper here](https://arxiv.org/abs/2505.08728)
+
+Recommended citation: Lukas Ammann, Sara Ott, Christoph R Landolt, Marco P Lehmann. (2025). "Securing RAG: A Risk Assessment and Mitigation Framework." <i>IEEE Swiss Conference on Data Science 2025</i>. 1(1).

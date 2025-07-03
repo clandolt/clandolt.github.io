@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-## Biography
-I am a doctoral researcher at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by [Mario Fritz](https://cispa.saarland/group/fritz/). As an ELLIS PhD student, my research focuses on agentic and self-improving systems for cyber security, particularly exploring the intersection of generative AI, multi-agent learning, and game theory to build safer and more resilient autonomous agents in adversarial environments.
+## Hi there 👋
+I'm Christoph Landolt, a doctoral researcher at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by [Mario Fritz](https://cispa.saarland/group/fritz/). As an ELLIS PhD student, my research focuses on agentic and self-improving systems for cyber security, particularly exploring the intersection of generative AI, multi-agent learning, and game theory to build safer and more resilient autonomous agents in adversarial environments.
 
-Before starting my PhD, I worked as a master's thesis research fellow at the Cyber-Defence Campus in Switzerland, where I worked on training offensive penetration testing agents using multi-agent reinforcement learning (MARL). I also held a position as a research assistant in machine learning at the Institute for Computational Engineering (ICE) in Buchs, Switzerland, and gained several years of industry experience.
+Before starting my PhD, I worked as a [master's thesis research fellow at the Cyber-Defence Campus](https://actu.epfl.ch/news/cyber-defence-fellowships-christoph-landolt/) in Switzerland, where I worked on training offensive penetration testing agents using multi-agent reinforcement learning (MARL). I also held a position as a research assistant in machine learning at the Institute for Computational Engineering (ICE) in Buchs, Switzerland, and gained several years of industry experience.
 
 
 ## Research Interests
@@ -30,6 +30,8 @@ Before starting my PhD, I worked as a master's thesis research fellow at the Cyb
   Thesis: *Training of Offensive Penetration Testing Agents with Multi-Agent RL on Graphs* (CYD Fellowship)
 - **BSc in Systems Engineering (Computer Science)**, OST - Eastern Switzerland University of Applied Sciences  
   Thesis: *Anomaly Detection in Web Traffic using ML for Attack Recognition*
+
+## News
 
 
 ## Publications

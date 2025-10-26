@@ -23,7 +23,7 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 - **Secure & Trustworthy Foundation Models:** Studying how to align and secure foundation models for deployment in critical infrastructure.
 
 ## News
-- October 2025: Started as Teaching Assistant for *Machine Learning in Cybersecurity* (CISPA, Instructor: Prof. Dr. Mario Fritz), leading tutorial sessions and supporting exercises on ML security and AI applications.
+- October 2025: Started as Teaching Assistant for [*Machine Learning in Cybersecurity*](https://christophlandolt.com/mlcysec_notebooks/) (CISPA, Instructor: Prof. Dr. Mario Fritz), leading tutorial sessions and supporting exercises on ML security and AI applications.
 - October 2025: Attending [16th Conference on Game Theory and AI for Security (GameSec-25)](https://www.gamesec-conf.org/)
 - August 2025: Attending [ELLIS Doctoral Symposium on Robust AI](https://eds2025.pl/)
 - August 2025: Attending [CISPA - ELLIS - Summer School 2025 on Trustworthy AI - Secure and Safe Foundation Models](https://cispa.de/summer-school-2025)

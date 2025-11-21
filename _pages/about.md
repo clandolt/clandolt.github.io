@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## Hi there 👋
-I'm Christoph Landolt, a doctoral researcher at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by [Mario Fritz](https://cispa.saarland/group/fritz/). As an ELLIS PhD student, my research focuses on agentic and self-improving systems for cyber security, particularly exploring the intersection of generative AI, multi-agent learning, and game theory to build safer and more resilient autonomous agents in adversarial environments.
+I'm Christoph Landolt, a doctoral researcher at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany, supervised by [Mario Fritz](https://cispa.saarland/group/fritz/)(primary advisor, CISPA), and [Florian Tramèr](https://floriantramer.com/) (secondary advisor, [ETH Zürich - Secure and Private AI (SPY) Lab)](https://spylab.ai/). As an ELLIS PhD student, my research focuses on agentic and self-improving systems for cyber security, particularly exploring the intersection of generative AI, multi-agent learning, and game theory to build safer and more resilient autonomous agents in adversarial environments.
 
 Before starting my PhD, I worked as a [master's thesis research fellow at the Cyber-Defence Campus](https://actu.epfl.ch/news/cyber-defence-fellowships-christoph-landolt/) in Switzerland, where I worked on training offensive penetration testing agents using multi-agent reinforcement learning (MARL). I also held a position as a research assistant in machine learning at the Institute for Computational Engineering (ICE) in Buchs, Switzerland, and gained several years of industry experience.
 

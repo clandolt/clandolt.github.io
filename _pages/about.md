@@ -23,6 +23,7 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 - **Secure & Trustworthy Foundation Models:** Studying how to align and secure foundation models for deployment in critical infrastructure.
 
 ## News
+- February 2026: Our paper *Enhancing Cyber Attack Autonomy Through Multi-Agent Reinforcement Learning (MARL)* was accepted at CyCon 2026.
 - October 2025: Started as Teaching Assistant for [*Machine Learning in Cybersecurity*](https://christophlandolt.com/mlcysec_notebooks/) (CISPA, Instructor: Prof. Dr. Mario Fritz), leading tutorial sessions and supporting exercises on ML security and AI applications.
 - October 2025: Attending [16th Conference on Game Theory and AI for Security (GameSec-25)](https://www.gamesec-conf.org/)
 - August 2025: Attending [ELLIS Doctoral Symposium on Robust AI](https://eds2025.pl/)
@@ -35,7 +36,7 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 
 ## Education & Background
 
-- **PhD in Computer Science**, CISPA Helmholtz Center / ELLIS PhD Program, 2024 – present
+- **PhD in Computer Science**, CISPA Helmholtz Center / ELLIS PhD Program, 2025 – present
 - **MSc in Engineering (Data Science)**, OST - Eastern Switzerland University of Applied Sciences  
   Thesis: *Training of Offensive Penetration Testing Agents with Multi-Agent RL on Graphs* (CYD Fellowship)
 - **BSc in Systems Engineering (Computer Science)**, OST - Eastern Switzerland University of Applied Sciences  

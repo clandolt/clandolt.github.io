@@ -33,7 +33,7 @@
   })();
 
   (function () {
-    var VISIBLE = 5;
+    var VISIBLE = 4;
     var list = document.querySelector('[data-timeline]');
     var toggle = document.querySelector('[data-timeline-toggle]');
     if (!list || !toggle) return;
@@ -45,17 +45,14 @@
       items[i].classList.add('is-collapsed');
     }
 
-    var hiddenCount = items.length - VISIBLE;
-    var collapsedLabel = 'Show ' + hiddenCount + ' earlier updates';
-
-    toggle.textContent = collapsedLabel;
+    toggle.textContent = 'More';
     toggle.setAttribute('aria-expanded', 'false');
     toggle.classList.add('is-visible');
 
     toggle.addEventListener('click', function () {
       var expanded = list.classList.toggle('is-expanded');
       toggle.setAttribute('aria-expanded', String(expanded));
-      toggle.textContent = expanded ? 'Show less' : collapsedLabel;
+      toggle.textContent = expanded ? 'Less' : 'More';
     });
   })();
 

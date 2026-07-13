@@ -10,7 +10,7 @@
   venue: "CyCon 2026 — 18th International Conference on Cyber Conflict, CCDCOE"
   date:
   slidesurl:        # <- paste the slide deck URL here to show a "Slides" button
-  videourl: "https://www.youtube.com/watch?v=vA-R1xYOY-c&t=3425s"
+  videourl: "https://youtu.be/vA-R1xYOY-c?t=1208"
 
 - title: "Multi-Agent Reinforcement Learning"
   venue: "Cyber Alp Retreat, Davos"

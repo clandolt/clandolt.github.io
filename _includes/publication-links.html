@@ -6,12 +6,12 @@
          {% include publication-links.html %}            (single page, uses `page`)
 
   Front-matter fields: paperurl, arxivurl, slidesurl, codeurl, posterurl,
-                       projecturl, videourl, bibtexurl
+                       projecturl, videourl, proceedingsurl, bibtexurl
 {% endcomment %}
 
 {% assign pub = include.pub | default: page %}
 
-{% if pub.paperurl or pub.arxivurl or pub.slidesurl or pub.codeurl or pub.posterurl or pub.projecturl or pub.videourl or pub.bibtexurl %}
+{% if pub.paperurl or pub.arxivurl or pub.slidesurl or pub.codeurl or pub.posterurl or pub.projecturl or pub.videourl or pub.proceedingsurl or pub.bibtexurl %}
   <div class="pub__links">
     {% if pub.paperurl %}
       <a class="pub__btn" href="{{ pub.paperurl }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
@@ -30,6 +30,9 @@
     {% endif %}
     {% if pub.videourl %}
       <a class="pub__btn" href="{{ pub.videourl }}"><i class="fas fa-play" aria-hidden="true"></i> Talk</a>
+    {% endif %}
+    {% if pub.proceedingsurl %}
+      <a class="pub__btn" href="{{ pub.proceedingsurl }}"><i class="fas fa-book" aria-hidden="true"></i> Proceedings</a>
     {% endif %}
     {% if pub.projecturl %}
       <a class="pub__btn" href="{{ pub.projecturl }}"><i class="fas fa-link" aria-hidden="true"></i> Project</a>

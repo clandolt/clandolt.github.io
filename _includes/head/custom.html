@@ -21,7 +21,12 @@
     <meta name="citation_journal_title" content="{{ page.venue | escape_once }}">
   {% endif %}
   {% if page.paperurl %}
-    <meta name="citation_pdf_url" content="{{ page.paperurl }}">
+    {% comment %}Scholar requires an absolute URL here, so local PDFs get the host prepended.{% endcomment %}
+    {% if page.paperurl contains "://" %}
+      <meta name="citation_pdf_url" content="{{ page.paperurl }}">
+    {% else %}
+      <meta name="citation_pdf_url" content="{{ page.paperurl | prepend: base_path }}">
+    {% endif %}
   {% endif %}
   {% if page.excerpt %}
     <meta name="citation_abstract" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">

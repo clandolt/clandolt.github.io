@@ -753,6 +753,34 @@ a {
 }
 
 /* --------------------------------------------------------------------------
+   Talks (rendered from _data/talks.yml)
+   -------------------------------------------------------------------------- */
+
+.talk {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--hairline);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.talk__title {
+  margin: 0 0 0.3rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  line-height: 1.4;
+}
+
+.talk__venue {
+  margin: 0 0 0.9rem;
+  color: var(--ink-muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
    Individual publication page
    -------------------------------------------------------------------------- */
 

@@ -1,0 +1,19 @@
+# Talks shown under "Talks" on /activities/.
+#
+# Each entry renders a title, a venue line, and a row of buttons. A button only
+# appears if its URL is set — leave a field blank (or delete it) and no dead
+# button is rendered.
+#
+# Fields: title, venue, date, slidesurl, videourl, paperurl, codeurl, posterurl
+
+- title: "AI-Driven Autonomy in Cyber Conflict: Offense, Defence and Agentic Systems"
+  venue: "CyCon 2026 — 18th International Conference on Cyber Conflict, CCDCOE"
+  date:
+  slidesurl:        # <- paste the slide deck URL here to show a "Slides" button
+  videourl: "https://www.youtube.com/watch?v=vA-R1xYOY-c&t=3425s"
+
+- title: "Multi-Agent Reinforcement Learning"
+  venue: "Cyber Alp Retreat, Davos"
+  date: "June 2025"
+  slidesurl:
+  videourl:

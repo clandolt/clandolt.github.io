@@ -1,0 +1,36 @@
+{% comment %}
+  Renders site.data.talks. Buttons are conditional: a missing URL renders nothing
+  rather than a dead link.
+{% endcomment %}
+
+{% for talk in site.data.talks %}
+  <article class="talk">
+    <h3 class="talk__title">{{ talk.title }}</h3>
+
+    {% if talk.venue or talk.date %}
+      <p class="talk__venue">
+        {{ talk.venue }}{% if talk.venue and talk.date %} <span class="pub__dot">·</span> {% endif %}{{ talk.date }}
+      </p>
+    {% endif %}
+
+    {% if talk.slidesurl or talk.videourl or talk.paperurl or talk.codeurl or talk.posterurl %}
+      <div class="pub__links">
+        {% if talk.slidesurl %}
+          <a class="pub__btn" href="{{ talk.slidesurl }}"><i class="fas fa-desktop" aria-hidden="true"></i> Slides</a>
+        {% endif %}
+        {% if talk.videourl %}
+          <a class="pub__btn" href="{{ talk.videourl }}"><i class="fas fa-play" aria-hidden="true"></i> Video</a>
+        {% endif %}
+        {% if talk.paperurl %}
+          <a class="pub__btn" href="{{ talk.paperurl }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        {% endif %}
+        {% if talk.codeurl %}
+          <a class="pub__btn" href="{{ talk.codeurl }}"><i class="fas fa-code" aria-hidden="true"></i> Code</a>
+        {% endif %}
+        {% if talk.posterurl %}
+          <a class="pub__btn" href="{{ talk.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i> Poster</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </article>
+{% endfor %}

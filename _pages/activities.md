@@ -8,7 +8,12 @@ author_profile: false
 
 ## Reviewing
 
+**Associate Editor — ICSR 2024, International Conference on Social Robotics**  
+*July – November 2024*
+
 ## Talks
+
+{% include talk-list.html %}
 
 ## Media
 **Interview: Deutschlandfunk (DLF) – Forschung Aktuell** *Computer und Kommunikation | March 2026* - Discussed the intersection of **Generative AI and software security**, highlighting the risks of "vibe coding" and AI-assisted development.  

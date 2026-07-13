@@ -1,0 +1,38 @@
+{% include base_path %}
+{% assign author = site.author %}
+
+<header class="hero" itemscope itemtype="http://schema.org/Person">
+  <div class="hero__avatar">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+    {% else %}
+      <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ author.name }}" itemprop="image">
+    {% endif %}
+  </div>
+
+  <h1 class="hero__name" itemprop="name">{{ author.name }}</h1>
+  <p class="hero__tagline">{{ site.description }}</p>
+  <p class="hero__affiliation">Saarbrücken, Germany</p>
+
+  <ul class="hero__links">
+    {% if author.email %}
+      <li><a href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+    {% endif %}
+    {% if author.googlescholar %}
+      <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+    {% endif %}
+    {% if author.orcid %}
+      <li><a href="{{ author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+    {% endif %}
+    {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+    {% endif %}
+    {% if author.uri %}
+      <li><a href="{{ author.uri }}"><i class="fas fa-link" aria-hidden="true"></i> CISPA</a></li>
+    {% endif %}
+    <li><a href="{{ base_path }}/files/CV_Christoph_Landolt.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a></li>
+  </ul>
+</header>

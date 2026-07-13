@@ -1,23 +1,33 @@
 {% include base_path %}
 
+{% comment %}
+  Self-contained responsive nav. Deliberately does NOT use the theme's
+  .greedy-nav classes: that relied on jQuery measuring link widths at runtime to
+  decide what to hide. This collapses to a hamburger below 768px in pure CSS,
+  and works with JS disabled (the menu is simply always open).
+{% endcomment %}
+
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
+  <nav class="site-nav" id="site-nav" aria-label="Main">
+    <a class="site-nav__brand" href="{{ base_path }}/">{{ site.title }}</a>
+
+    <button type="button" class="site-nav__toggle" data-nav-toggle
+            aria-expanded="false" aria-controls="site-nav-menu" aria-label="Open menu">
+      <span class="site-nav__bar"></span>
+      <span class="site-nav__bar"></span>
+    </button>
+
+    <ul class="site-nav__menu" id="site-nav-menu">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = base_path %}
+        {% endif %}
+        <li class="site-nav__item">
+          <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </div>

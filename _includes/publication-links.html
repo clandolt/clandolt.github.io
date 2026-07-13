@@ -1,0 +1,41 @@
+{% comment %}
+  Link buttons for a publication. Each renders only if the matching front-matter
+  field is set, so entries can carry any subset.
+
+  Usage: {% include publication-links.html pub=post %}   (listing)
+         {% include publication-links.html %}            (single page, uses `page`)
+
+  Front-matter fields: paperurl, arxivurl, slidesurl, codeurl, posterurl,
+                       projecturl, videourl, bibtexurl
+{% endcomment %}
+
+{% assign pub = include.pub | default: page %}
+
+{% if pub.paperurl or pub.arxivurl or pub.slidesurl or pub.codeurl or pub.posterurl or pub.projecturl or pub.videourl or pub.bibtexurl %}
+  <div class="pub__links">
+    {% if pub.paperurl %}
+      <a class="pub__btn" href="{{ pub.paperurl }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+    {% endif %}
+    {% if pub.arxivurl %}
+      <a class="pub__btn" href="{{ pub.arxivurl }}"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
+    {% endif %}
+    {% if pub.slidesurl %}
+      <a class="pub__btn" href="{{ pub.slidesurl }}"><i class="fas fa-desktop" aria-hidden="true"></i> Slides</a>
+    {% endif %}
+    {% if pub.codeurl %}
+      <a class="pub__btn" href="{{ pub.codeurl }}"><i class="fas fa-code" aria-hidden="true"></i> Code</a>
+    {% endif %}
+    {% if pub.posterurl %}
+      <a class="pub__btn" href="{{ pub.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i> Poster</a>
+    {% endif %}
+    {% if pub.videourl %}
+      <a class="pub__btn" href="{{ pub.videourl }}"><i class="fas fa-play" aria-hidden="true"></i> Talk</a>
+    {% endif %}
+    {% if pub.projecturl %}
+      <a class="pub__btn" href="{{ pub.projecturl }}"><i class="fas fa-link" aria-hidden="true"></i> Project</a>
+    {% endif %}
+    {% if pub.bibtexurl %}
+      <a class="pub__btn" href="{{ pub.bibtexurl }}"><i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX</a>
+    {% endif %}
+  </div>
+{% endif %}

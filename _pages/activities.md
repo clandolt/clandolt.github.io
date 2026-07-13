@@ -29,4 +29,8 @@ author_profile: false
 - Guiding students through exercises on ML applications in cybersecurity, including attacks, defenses, and AI for CTF challenges  
 - Supporting course logistics and student learning, both in-person and via Zoom
 
+<div class="pub__links">
+  <a class="pub__btn" href="https://christophlandolt.com/mlcysec_notebooks/"><i class="fas fa-book" aria-hidden="true"></i> Tutorial Notebooks</a>
+</div>
+
 ## Supervision

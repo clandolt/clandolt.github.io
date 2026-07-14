@@ -1,23 +1,20 @@
 {% include base_path %}
 
 {% comment %}
-  Self-contained responsive nav. Deliberately does NOT use the theme's
-  .greedy-nav classes: that relied on jQuery measuring link widths at runtime to
-  decide what to hide. This collapses to a hamburger below 768px in pure CSS,
-  and works with JS disabled (the menu is simply always open).
+  Plain, always-visible nav. No hamburger, no JS, no runtime width measuring:
+  the links are in the markup and CSS alone lays them out. On narrow screens the
+  row wraps and centres under the site title.
+
+  Deliberately avoids the theme's .greedy-nav (jQuery measured link widths at
+  runtime) and the earlier hamburger (needed JS to reveal the menu — when the
+  script failed to run, the links became unreachable).
 {% endcomment %}
 
 <div class="masthead">
-  <nav class="site-nav" id="site-nav" aria-label="Main">
+  <nav class="site-nav" aria-label="Main">
     <a class="site-nav__brand" href="{{ base_path }}/">{{ site.title }}</a>
 
-    <button type="button" class="site-nav__toggle" data-nav-toggle
-            aria-expanded="false" aria-controls="site-nav-menu" aria-label="Open menu">
-      <span class="site-nav__bar"></span>
-      <span class="site-nav__bar"></span>
-    </button>
-
-    <ul class="site-nav__menu" id="site-nav-menu">
+    <ul class="site-nav__menu">
       {% for link in site.data.navigation.main %}
         {% if link.url contains 'http' %}
           {% assign domain = '' %}

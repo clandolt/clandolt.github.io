@@ -211,96 +211,25 @@ a {
   }
 }
 
-/* Hamburger — hidden on desktop, revealed at the breakpoint below */
-.site-nav__toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  width: 44px;
-  height: 44px;
-  margin-right: -10px;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-}
-
-.site-nav__bar {
-  display: block;
-  width: 18px;
-  height: 1.5px;
-  margin: 0 auto;
-  border-radius: 2px;
-  background: var(--ink);
-  transition: transform 0.25s var(--ease), opacity 0.2s var(--ease);
-}
-
-/* hamburger morphs into an X */
-.site-nav__toggle[aria-expanded="true"] {
-  .site-nav__bar:first-child {
-    transform: translateY(3.25px) rotate(45deg);
-  }
-
-  .site-nav__bar:last-child {
-    transform: translateY(-3.25px) rotate(-45deg);
-  }
-}
-
+/* Narrow screens: stack the title over a centred, wrapping row of links.
+   Nothing here depends on JavaScript — the links are always visible. */
 @media (max-width: 768px) {
   .site-nav {
-    padding: 0 20px;
-  }
-
-  .site-nav__toggle {
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.6rem 16px;
   }
 
   .site-nav__menu {
-    /* full-width panel below the bar; occupies no space until opened */
-    display: none;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    width: 100%;
-    order: 3;
-    padding: 0.5rem 0 1rem;
-    border-top: 1px solid var(--hairline);
-  }
-
-  /* JS toggles this; without JS the menu falls back to always-visible (see below) */
-  .site-nav__menu.is-open {
-    display: flex;
-    animation: nav-in 0.25s var(--ease) both;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem;
   }
 
   .site-nav__item a {
-    padding: 0.7rem 0.25rem;
-    font-size: 1rem;
-    border-radius: 8px;
-  }
-}
-
-@keyframes nav-in {
-  from {
-    opacity: 0;
-    transform: translateY(-6px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-/* No JS: never leave the links unreachable behind a dead hamburger. The script
-   adds .has-js, so this only applies when the script did not run. */
-@media (max-width: 768px) {
-  .site-nav:not(.has-js) .site-nav__menu {
-    display: flex;
-  }
-
-  .site-nav:not(.has-js) .site-nav__toggle {
-    display: none;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8125rem;
   }
 }
 

@@ -10,34 +10,7 @@
 (function () {
   'use strict';
 
-  // --- Responsive nav: hamburger below 768px --------------------------------
-  (function () {
-    var nav = document.getElementById('site-nav');
-    var toggle = document.querySelector('[data-nav-toggle]');
-    var menu = document.getElementById('site-nav-menu');
-    if (!nav || !toggle || !menu) return;
-
-    // Tells the CSS that JS is live, so it stops falling back to an open menu.
-    nav.classList.add('has-js');
-
-    function setOpen(open) {
-      menu.classList.toggle('is-open', open);
-      toggle.setAttribute('aria-expanded', String(open));
-      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-    }
-
-    toggle.addEventListener('click', function () {
-      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
-    });
-
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') setOpen(false);
-    });
-
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 768) setOpen(false);
-    });
-  })();
+  // The nav is CSS-only by design — see _includes/masthead.html.
 
   // --- News timeline: show the first N, reveal the rest ---------------------
   (function () {

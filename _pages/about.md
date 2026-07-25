@@ -27,6 +27,10 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 
 <ul class="timeline" data-timeline>
   <li class="timeline__item">
+    <span class="timeline__date">Jul 2026</span>
+    <div class="timeline__body">Our paper <a href="/publication/2026-07-03-the-oracles-gambit-a-game-theoretic-framework-for-responsible-ai-release"><em>The Oracle's Gambit: A Game-Theoretic Framework for Responsible AI Release</em></a> was accepted for an oral presentation at GameSec 2026, the 17th Conference on Game Theory and AI for Security.</div>
+  </li>
+  <li class="timeline__item">
     <span class="timeline__date">Feb 2026</span>
     <div class="timeline__body">Our paper <em>Enhancing Cyber Attack Autonomy Through Multi-Agent Reinforcement Learning (MARL)</em> was accepted at CyCon 2026.</div>
   </li>

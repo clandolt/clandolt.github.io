@@ -16,6 +16,10 @@ author_profile: false
 {% include talk-list.html %}
 
 ## Media
+**Feature: MIT Technology Review (German edition) – "Vergiftete Daten" (Data Poisoning)** *Issue 6/2026 | Author: Stefan Burkhardt* — Featured on the growing threat of data poisoning to AI systems.
+- Discussed the cat-and-mouse game between manipulation and detection, drawing on research at the **Helmholtz Center for Information Security (CISPA)** and the EU **ELLIOT** project on agentic, self-improving cybersecurity systems.
+- Highlighted the security risks of "vibe coding," the limits of agent-based safeguards, and the societal question of who decides which data AI models are trained on.
+
 **Interview: Deutschlandfunk (DLF) – Forschung Aktuell** *Computer und Kommunikation | March 2026* - Discussed the intersection of **Generative AI and software security**, highlighting the risks of "vibe coding" and AI-assisted development.  
 - Shared insights from research at **CISPA** and the **ELLIOT Project** regarding LLM-induced vulnerabilities, such as missing input validation and the use of outdated security standards.  
 - [Listen to the full segment (German)](https://www.deutschlandfunk.de/ki-coding-wie-generative-ki-die-softwareentwicklung-veraendert-100.html)

@@ -27,6 +27,10 @@ Before starting my PhD, I worked as a [master's thesis research fellow at the Cy
 
 <ul class="timeline" data-timeline>
   <li class="timeline__item">
+    <span class="timeline__date">Aug 2026</span>
+    <div class="timeline__body">Featured in <em>MIT Technology Review</em> (German edition, issue 6/2026) in the article <em>Vergiftete Daten</em> (Data Poisoning), discussing the threat of data poisoning to AI systems and my research on agentic, self-improving cybersecurity within the EU ELLIOT project.</div>
+  </li>
+  <li class="timeline__item">
     <span class="timeline__date">Jul 2026</span>
     <div class="timeline__body">Our paper <a href="/publication/2026-07-03-the-oracles-gambit-a-game-theoretic-framework-for-responsible-ai-release"><em>The Oracle's Gambit: A Game-Theoretic Framework for Responsible AI Release</em></a> was accepted for an oral presentation at GameSec 2026, the 17th Conference on Game Theory and AI for Security.</div>
   </li>
